@@ -1,0 +1,13 @@
+@import 'navbar.css';
+@import 'color.css';
+@import 'button.css';
+
+body {
+    background: var(--background-color);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
