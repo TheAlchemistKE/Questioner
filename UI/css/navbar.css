@@ -1,0 +1,15 @@
+@import 'color.css';
+
+.navlinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.navigation-menu {
+    background: var(--component-color);
+    width: 100%;
+    position: absolute;
+    top: 0;
+
+}
