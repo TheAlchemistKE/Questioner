@@ -2,6 +2,7 @@
 @import 'color.css';
 @import 'button.css';
 
+/* GENERAL STYLES */
 body {
     background: var(--background-color);
     -moz-box-sizing: border-box;
