@@ -22,7 +22,8 @@ a.active {
 }
 .navlink {
     color: #fff;
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding: .7rem 2%;
     border-bottom: solid 2px rgba(0, 0, 0, 0.2);
 }
