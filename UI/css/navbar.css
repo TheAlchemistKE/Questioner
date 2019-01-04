@@ -2,26 +2,26 @@
 @import 'text.css';
 
 .navigation-menu {
-    background: var(--component-color);
+    background-color: var(--component-color);
     width: 100%;
     position: absolute;
     top: 0;
-    margin: 0;
-    padding: 0;
 }
-
 .navlinks {
+    width: 100%;
     list-style-type: none;
-    
-
+    margin: 0px;
+    padding: 0px;
 }
-.navlinks li {
-    padding: 5px 0px;
-    text-align: left;
+a.active {
+    background: var(--active-color);
 }
 .navlink {
     color: #fff;
-    font-size: 1rem;
-    
-    
+    display: block;
+    padding: .7rem 2%;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.2);
+}
+a.navlink:hover {
+    background: var(--hover-color);
 }
