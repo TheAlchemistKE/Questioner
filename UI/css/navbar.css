@@ -14,6 +14,9 @@
     margin: 0px;
     padding: 0px;
 }
+.text-nav {
+    display: none;
+}
 a.active {
     background: var(--active-color);
 }
