@@ -1,3 +1,5 @@
+@import 'color.css';
+
 /* BUTTON STYLES */
 .menu-btn {
     background-image: url('../assets/img/menu-icon.svg');
@@ -9,4 +11,15 @@
     background-size: 86%;
     background-position: center center;
     border: none;
+}
+.btn {
+    border: None;
+    padding: 0.6rem;
+    border-radius: 5px;
+}
+.btn-primary {
+    background: var(--btn-primary-color);
+    color: var(--text-color);
+    font-weight: bold;
+
 }
