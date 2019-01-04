@@ -6,8 +6,27 @@
    480-less    - phone landscape & smaller
 --------------------------------------------*/
 @media all and (min-width:480px) and (max-width: 768px){
+    .navigation-menu {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
+    .text-nav {
+        display: flex;
+        padding-left: 10px;
+    }
+    .navlinks {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .navlink {
+        padding: 0.8rem;
+    }
+    
     .menu-btn {
-        display: none
+        display: none;
     }
     
 }
