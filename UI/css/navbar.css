@@ -1,15 +1,27 @@
 @import 'color.css';
+@import 'text.css';
 
-.navlinks {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-}
 .navigation-menu {
     background: var(--component-color);
     width: 100%;
     position: absolute;
     top: 0;
+    margin: 0;
+    padding: 0;
+}
 
+.navlinks {
+    list-style-type: none;
+    
+
+}
+.navlinks li {
+    padding: 5px 0px;
+    text-align: left;
+}
+.navlink {
+    color: #fff;
+    font-size: 1rem;
+    
+    
 }
