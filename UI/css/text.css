@@ -1,5 +1,6 @@
 @import 'color.css';
 
+/* TEXT STYLES */
 .text-primary {
     font-size: 1rem;
     color: var(--text-color);
