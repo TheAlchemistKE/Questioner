@@ -1,0 +1,11 @@
+.menu-btn {
+    background-image: url('../assets/img/menu-icon.svg');
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    background-color: inherit;
+    color: white;
+    background-size: 86%;
+    background-position: center center;
+    border: none;
+}
