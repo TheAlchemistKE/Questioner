@@ -1,6 +1,7 @@
 @import 'color.css';
 @import 'text.css';
 
+/* NAVIGATION MENU. */
 .navigation-menu {
     background-color: var(--component-color);
     width: 100%;
