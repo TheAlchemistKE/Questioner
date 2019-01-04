@@ -5,6 +5,12 @@
     font-size: 1rem;
     color: var(--text-color);
 }
+.text-nav {
+    font-size: 1rem;
+    color: var(--nav-color);
+
+}
+
 .text-secondary {
     font-size: 0.875rem;
     color: var(--text-color);
