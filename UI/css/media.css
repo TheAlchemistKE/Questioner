@@ -34,6 +34,28 @@
     
 }
 @media all and (min-width:1024px) and (max-width: 1280px){
+    .navigation-menu {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
+    .text-nav {
+        display: flex;
+        padding-left: 10px;
+    }
+    .navlinks {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .navlink {
+        padding: 0.8rem;
+    }
+    
+    .menu-btn {
+        display: none;
+    }
 
 }
 
