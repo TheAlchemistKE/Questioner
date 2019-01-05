@@ -1,15 +1,3 @@
 .showcase {
-    width: 100%;
-    
-
-}
-.showcase-img {
-    width: 100%;
-    height: 10%;
-    overflow: auto;
-}
-.user-activity {
-    text-align: center;
-    padding: .5rem 0px;
-    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+    display: none;
 }
