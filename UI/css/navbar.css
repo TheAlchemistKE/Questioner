@@ -5,8 +5,8 @@
 .navigation-menu {
     background-color: var(--component-color);
     width: 100%;
-    position: absolute;
-    top: 0;
+    position: relative;
+    
 }
 .navlinks {
     width: 100%;
@@ -27,6 +27,6 @@ a.active {
     padding: .7rem 2%;
     border-bottom: solid 2px rgba(0, 0, 0, 0.2);
 }
-a.navlink:hover {
+.navlink:hover {
     background: var(--hover-color);
 }
