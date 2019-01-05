@@ -1,0 +1,13 @@
+.card {
+    margin: 0.4rem;
+    background: #ccc;
+    border-radius: 5px;
+
+} 
+.card-thumb {
+    width: 100%;
+    position: relative;
+}
+.card-content {
+    padding: 10px;
+}
