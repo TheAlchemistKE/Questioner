@@ -11,7 +11,7 @@
     <header>
         <nav class="navigation-menu">
             <button id="menu" class="menu-btn"></button>
-            <h2 class="text-nav"><a href="index.html">Questioner</a></h2>
+            <h2><a href="index.html" class="text-nav">Questioner</a></h2>
             <ul class="navlinks">
                 <li><a href="index.html" class="active navlink">Home</a></li>
                 <li><a href="html/meetups.html" class="navlink">Meetups</a></li>
@@ -23,16 +23,73 @@
     <!-- Page Showcase. -->
     <section class="showcase">
         <img src="assets/img/gathering.jpeg" alt="A group of people gathered" class="showcase-img">
-        <button type="submit" class="btn btn-primary">Sign In</button>
-        <button type="submit" class="btn btn-primary">Sign Up</button>
+        <div class="user-activity">
+            <button type="submit" class="btn btn-primary">Sign In</button>
+            <span>or</span>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+        </div>  
     </section>
     
-    <!-- Meetups -->
-    <section class="meetups">
+    
+    <div class="meetup-text">
         <h3 class="text-primary">Upcoming meetups</h3>
-        <a href="html/meetup.html">View more Events</a>
+        <a href="html/meetup.html" class="btn">View more Events</a>
+    </div>
+    
+    <!-- Meetups -->
+    <main class="meetups">
+        <article class="card grid-item">
+            <figure class="card-thumb">
+                <img src="assets/img/event1.jpg" alt="Event thumbnail">
+            </figure>
+            <div class="card-content">
+                <header>
+                    <h3 class="text-primary">Event 1</h3>
+                </header>
+                <main class="card-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum hic nisi corrupti magnam at eligendi deserunt culpa, accusantium in voluptas distinctio, quas perspiciatis reprehenderit laudantium velit, commodi tempora ullam animi.
+                    </p>
+                </main>
+                <button type="submit" class="btn btn-primary">More Details</button>
+        
+            </div>      
+        </article>
+        <article class="card grid-item">
+            <figure class="card-thumb">
+                <img src="assets/img/event2.jpg" alt="Event thumbnail.">
+            </figure>
+            <div class="card-content">
+                <header>
+                    <h3 class="text-primary">Event 2</h3>
+                </header>
+                <main class="card-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum hic nisi corrupti magnam at eligendi deserunt culpa, accusantium in voluptas distinctio, quas perspiciatis reprehenderit laudantium velit, commodi tempora ullam animi.
+                    </p>
+                </main>
+                <button type="submit" class="btn btn-primary">More Details</button>
 
-    </section>
+            </div>      
+        </article>
+        <article class="card grid-item">
+                <figure class="card-thumb">
+                    <img src="assets/img/event3.jpg" alt="Event thumbnail.">
+                </figure>
+                <div class="card-content">
+                    <header>
+                        <h3 class="text-primary">Event 3</h3>
+                    </header>
+                    <main class="card-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum hic nisi corrupti magnam at eligendi deserunt culpa, accusantium in voluptas distinctio, quas perspiciatis reprehenderit laudantium velit, commodi tempora ullam animi.
+                        </p>
+                    </main>
+                    <button type="submit" class="btn btn-primary">More Details</button>
+
+                </div>
+                
+            </article>
+        
+        
+    </main>
 
     <!-- Adding JavaScript. -->
     <script src="js/script.js"></script>   
