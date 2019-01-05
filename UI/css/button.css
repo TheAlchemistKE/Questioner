@@ -17,9 +17,16 @@
     padding: 0.6rem;
     border-radius: 5px;
 }
+
+.btn:focus {
+    outline: none;
+}
 .btn-primary {
     background: var(--btn-primary-color);
     color: var(--text-color);
     font-weight: bold;
-
+}
+.btn-primary:focus {
+    border: solid 2px var(--btn-primary-color);
+    background: #fff;
 }
