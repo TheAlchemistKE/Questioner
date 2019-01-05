@@ -1,0 +1,32 @@
+@import 'color.css';
+@import 'text.css';
+
+/* NAVIGATION MENU. */
+.navigation-menu {
+    background-color: var(--component-color);
+    width: 100%;
+    position: relative;
+    
+}
+.navlinks {
+    width: 100%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.text-nav {
+    display: none;
+}
+a.active {
+    background: var(--active-color);
+}
+.navlink {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: .7rem 2%;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.2);
+}
+.navlink:hover {
+    background: var(--hover-color);
+}

@@ -1,0 +1,10 @@
+.meetups {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 10px;
+}
+.meetup-text {
+    text-align: center;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.1);
+}

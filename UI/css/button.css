@@ -1,0 +1,38 @@
+@import 'color.css';
+
+/* BUTTON STYLES */
+.menu-btn {
+    background-image: url('../assets/img/menu-icon.svg');
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    background-color: inherit;
+    color: white;
+    background-size: 86%;
+    background-position: center center;
+    border: none;
+}
+.btn {
+    border: None;
+    border-radius: 5px;
+    padding: .6rem .4rem;
+}
+
+.btn:focus {
+    outline: none;
+}
+.btn-primary {
+    background: var(--btn-primary-color);
+    color: var(--text-color);
+    font-weight: bold;
+}
+.btn-primary:focus {
+    border: solid 2px var(--btn-primary-color);
+    background: #fff;
+}
+.btn-showcase {
+    background: var(--nav-color);
+    color: var(--text-color);
+    font-weight: bold;
+    border: solid 2px rgba(0, 0, 0, 0.3)
+}
