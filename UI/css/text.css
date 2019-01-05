@@ -1,4 +1,5 @@
 @import 'color.css';
+@import url('https://fonts.googleapis.com/css?family=Charm');
 
 /* TEXT STYLES */
 .text-primary {
@@ -14,4 +15,10 @@
 .text-secondary {
     font-size: 0.875rem;
     color: var(--text-color);
+}
+.logo-text {
+    font-family: 'Charm', cursive;
+    font-size: 24px;
+    display: inline-block;
+
 }
