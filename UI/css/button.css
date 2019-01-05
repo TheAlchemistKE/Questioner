@@ -14,8 +14,8 @@
 }
 .btn {
     border: None;
-    padding: 0.6rem;
     border-radius: 5px;
+    padding: .6rem .4rem;
 }
 
 .btn:focus {
@@ -29,4 +29,10 @@
 .btn-primary:focus {
     border: solid 2px var(--btn-primary-color);
     background: #fff;
+}
+.btn-showcase {
+    background: var(--nav-color);
+    color: var(--text-color);
+    font-weight: bold;
+    border: solid 2px rgba(0, 0, 0, 0.3)
 }
