@@ -16,6 +16,10 @@
     font-size: 0.875rem;
     color: var(--text-color);
 }
+.text-link {
+    text-decoration: underline;
+    color: var(--text-color);
+}
 .logo-text {
     font-family: 'Charm', cursive;
     font-size: 24px;
