@@ -18,7 +18,7 @@
 }
 
 /* Styling Posted Questions */
-.question-list {
+.question-list, .comment-list {
     list-style-type: none;
     width: 60%;
     margin: 0 auto;
@@ -67,4 +67,8 @@
 }
 .question-votes .downvote {
     padding-left: 1.25rem;
+}
+/* Styling Comments */
+.comment-list {
+    border-left: solid 3px rgba(0, 0, 0, 0.2);
 }
