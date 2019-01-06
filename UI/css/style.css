@@ -7,10 +7,12 @@
 @import 'card.css';
 @import 'dashboard.css';
 @import 'form.css';
+@import 'single-meetup.css';
 
 /* GENERAL STYLES */
 body {
     background: var(--background-color);
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -21,6 +23,7 @@ body {
 a {
     text-decoration: none;
 }
+/* Styling Footer */
 footer {
     position: absolute;
     right: 0;

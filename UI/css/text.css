@@ -11,6 +11,12 @@
     color: var(--nav-color);
 
 }
+.text-bold {
+    font-weight: bold;
+}
+.text-underline {
+    text-decoration: underline;
+}
 
 .text-secondary {
     font-size: 0.875rem;
