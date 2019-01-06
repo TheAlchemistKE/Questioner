@@ -65,3 +65,6 @@
 .question-votes .upvote {
     padding: 0 .4rem;
 }
+.question-votes .downvote {
+    padding-left: 1.25rem;
+}
