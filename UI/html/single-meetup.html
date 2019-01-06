@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Add Question</title>
+    <title>Meetup</title>
 </head>
 <body>
     <header>
@@ -19,14 +19,38 @@
             </ul>
         </nav>
     </header>
+
     <section class="meetup-details">
-        <figure class="meetup-thumbnail">
-            <img src="../assets/img/event1.jpg" alt="Event banner.">
-        </figure>
+        
+        <img src="../assets/img/event1.jpg" alt="Event banner." class="meetup-thumbnail">
+
         <section class="meetup-description">
+            <header class="meetup-header">
+                <h3 class="text-underline">Event 1</h3>
+                <p class="text-primary text-bold text-underline">Description</p>
+            </header>
+            <p class="text-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus lobortis hendrerit. Nam elementum accumsan erat, sit amet lobortis libero dictum vel. Curabitur ut commodo nisi, ut varius odio. Sed vel sapien erat. Cras lacus lectus, laoreet ut interdum id, fermentum et turpis. Fusce vitae luctus tellus, id blandit libero. </p>
+            <div class="meetup-footer">
+                <span class="text-primary"><span class="text-bold">Event Date:</span>  1 January 2019</span>
+            </div>
 
         </section>
     </section>
-    
+    <main class="container">
+        <header>
+            <h2>Questions</h2>  
+        </header>
+        <div class="add-question">
+            <label for="title">Question Title</label>
+            <input type="text" name="title" id="title">
+            <label for="qn-description">Question Title</label>
+            <input type="text" name="description" id="qn-description">
+            <button type="submit" class="btn btn-primary">Add Question</button>
+        </div>
+        
+    </main>
+
+    <!-- Adding JavaScript. -->
+    <script src="../js/script.js"></script>
 </body>
 </html>
