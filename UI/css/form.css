@@ -20,7 +20,6 @@
 /* Styles for the input container */
 .user-input {
     width: 100%;
-   
     margin: 0rem 0rem .2rem 0rem;
 }
 
@@ -44,4 +43,6 @@
 }
 .input-field:focus {
     border: solid 1px var(--component-color);
+    font-size: 1rem;
+    background: inherit;
 }
