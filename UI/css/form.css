@@ -3,7 +3,7 @@
     width: 100%;
 
 }
-.register {
+.register, .login{
     border: solid 1px var(--component-color);
     padding: 1.2rem;
     margin: 0.4rem;
@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: center;
 }
-.register h2 {
+.register h2, .login h2 {
     font-size: 1.2rem;
     text-align: center;
     
