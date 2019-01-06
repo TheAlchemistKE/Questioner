@@ -15,11 +15,11 @@
 .container {
     width: 100%;
 }
-.container header {
+.container .heading {
     display: block;
     border-bottom:solid 1px rgba(0, 0, 0, 0.2);
     text-align: center;
-    position: relative;  
+    
 }
 .add-question {
     width: 100%;
@@ -29,6 +29,7 @@
     border-radius: .3125rem;
     padding: .8rem;
     margin: .4rem;
+    position: relative; 
     
 }
 .add-question input {
