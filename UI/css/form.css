@@ -1,0 +1,47 @@
+@import 'color.css';
+.container {
+    width: 100%;
+
+}
+.register {
+    border: solid 1px var(--component-color);
+    padding: 1.2rem;
+    margin: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+
+/* Styles for the input container */
+.user-input {
+    width: 100%;
+   
+    margin: 0rem 0rem .2rem 0rem;
+}
+
+/* Styling Form Icons. */
+.form-icon {
+    min-width: 20%;
+    padding: 0.625rem;
+    background: var(--component-color);
+    color: var(--nav-color);
+    text-align: center;
+}
+
+/* Styling Input Fields  */
+.input-field {
+    width: 58%;
+    outline: none;
+    padding: 0.625rem;
+}
+.input-field::placeholder {
+    font-size: 0.8rem;
+}
+.input-field:focus {
+    border: solid 1px var(--component-color);
+}
