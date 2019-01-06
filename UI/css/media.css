@@ -6,6 +6,7 @@
    480-less    - phone landscape & smaller
 --------------------------------------------*/
 @media only screen and (min-width:480px) and (max-width: 768px){
+    /* Navigation Menu */
     .navigation-menu {
         position: relative;
         display: flex;
@@ -29,6 +30,7 @@
     .menu-btn {
         display: none;
     }
+    /* Showcase Styling */
     .showcase {
         width: 100%;
         top: 0;
@@ -98,6 +100,37 @@
         margin: 5% !important;
 
     }
+    /* Single Meetup Styling */
+    .meetup-details {
+        width: 100%;
+    }
+    .meetup-thumbnail {
+        width: 30% !important;
+        float: left;
+        height: 250px;
+    }
+    .meetup-description {
+        width: 65%;
+        float: right;
+    }
+    /* Add Questions Box */
+    .heading {
+       position: relative;
+       width: 100%;
+    }
+    .ask-question {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .add-question {
+        position: absolute;
+        width: 50% !important;  
+    }
+
+
    
 }
 @media only screen  and (min-width : 1024px) {
