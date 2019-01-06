@@ -55,3 +55,13 @@
 .add-question #qn-box {
     margin-bottom: 2%;
 }
+/* Styling Votes */
+.question-votes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: .4rem .625rem;
+}
+.question-votes .upvote {
+    padding: 0 .4rem;
+}
