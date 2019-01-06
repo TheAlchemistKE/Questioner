@@ -9,6 +9,7 @@
 </head>
 <body>
     <header>
+        <!-- Navigation Menu -->
         <nav class="navigation-menu">
             <button id="menu" class="menu-btn"></button>
             <h2><a href="index.html" class="text-nav logo-text">Questioner</a></h2>
@@ -20,10 +21,12 @@
         </nav>
     </header>
 
+    <!-- Meetup Details -->
     <section class="meetup-details">
-        
+        <!-- Meetup Image -->
         <img src="../assets/img/event1.jpg" alt="Event banner." class="meetup-thumbnail">
 
+        <!-- Meetup Description -->
         <section class="meetup-description">
             <header class="meetup-header">
                 <h3 class="text-underline">Event 1</h3>
@@ -33,22 +36,57 @@
             <div class="meetup-footer">
                 <span class="text-primary"><span class="text-bold">Event Date:</span>  1 January 2019</span>
             </div>
-
         </section>
     </section>
+
+    <!-- Actual Event Questions. -->
+    <div class="heading">
+        <h2>Questions</h2>  
+    </div>
     <main class="container">
-        <header>
-            <h2>Questions</h2>  
-        </header>
+       
+        <div class="questions">
+            <ul class="question-list">
+                <li class="single-question">
+                    <div class="user-details">
+                        <img src="http://i.pravatar.cc/150" alt="Profile Avatar" class="avatar">
+                        <div class="post-details">
+                            <p class="text-bold">User 1</p>
+                            <p class="text-secondary">10 minutes ago.</p>
+                        </div>
+                        
+                    </div>
+                    <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar sem feugiat, luctus erat eu, consectetur urna. Donec augue nibh, euismod nec nunc vitae, interdum congue nisl. Nullam elementum risus ex, eget ullamcorper libero condimentum at. Quisque sit amet odio sodales est egestas condimentum id placerat magna. </p>
+                </li>
+                <li class="single-question">
+                    <div class="user-details">
+                        <img src="http://i.pravatar.cc/150" alt="Profile Avatar" class="avatar">
+                        <div class="post-details">
+                            <p class="text-bold">User 2</p>
+                            <p class="text-secondary">10 minutes ago.</p>
+                        </div>
+                            
+                    </div>
+                    <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar sem feugiat, luctus erat eu, consectetur urna. Donec augue nibh, euismod nec nunc vitae, interdum congue nisl. Nullam elementum risus ex, eget ullamcorper libero condimentum at. Quisque sit amet odio sodales est egestas condimentum id placerat magna. </p>
+                </li>
+                
+            </ul>
+        </div>
+    </main>
+
+    <!-- Add Question Box -->
+    <div class="ask-question">
         <div class="add-question">
-            <label for="title">Question Title</label>
-            <input type="text" name="title" id="title">
-            <label for="qn-description">Question Title</label>
-            <input type="text" name="description" id="qn-description">
+            <h3>Add Question</h3>
+            <label for="qn-box" class="text-bold">Question</label>
+            <textarea name="question" id="qn-box" rows="15"></textarea>
             <button type="submit" class="btn btn-primary">Add Question</button>
         </div>
+
+    </div>
+       
         
-    </main>
+   
 
     <!-- Adding JavaScript. -->
     <script src="../js/script.js"></script>
