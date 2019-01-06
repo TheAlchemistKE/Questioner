@@ -41,6 +41,7 @@
 .input-field::placeholder {
     font-size: 0.8rem;
 }
+/* Styling when input field is clicked. */
 .input-field:focus {
     border: solid 1px var(--component-color);
     font-size: 1rem;
