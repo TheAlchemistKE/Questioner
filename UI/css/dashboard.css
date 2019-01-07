@@ -1,4 +1,6 @@
 @import 'color.css';
+
+/* Styling User Dashboard */
 .dashboard-heading {
     padding: 0.4rem 1.2rem;
 }
@@ -17,6 +19,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: .2rem;
+    border-bottom: solid .0625rem rgba(0, 0, 0, 0.2);
     
 }
 .user-dashboard .card {
@@ -34,4 +37,36 @@
 .profile-pic img {
     border-radius: 50%;
     text-align: center;
+}
+
+/* Styling Top Questions Feed Table */
+.question-feed {
+    width: 100%;
+   
+}
+.question-feed-title {
+    border-bottom: solid .0625rem rgba(0, 0, 0, 0.2);
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 1.25rem;
+}
+.question-feed .top-questions {
+    width: 100%;
+    border-collapse: collapse;
+    border: solid .0625rem var(--component-color);
+    text-align: left;
+    
+}
+.top-questions thead {
+    background: var(--component-color);
+    color: var(--nav-color);
+    
+}
+.top-questions tbody, tr, th {
+    border-bottom: solid .0625rem var(--component-color);
+    padding: 0.6rem 0;
+}
+.top-questions tbody, tr, td {
+    padding: 0.6rem 0;
 }
