@@ -9,6 +9,7 @@
 @import 'form.css';
 @import 'single-meetup.css';
 @import 'create-meetup.css';
+@import 'reset-password.css';
 
 /* GENERAL STYLES */
 body {
