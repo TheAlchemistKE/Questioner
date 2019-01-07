@@ -16,6 +16,7 @@
     border: None;
     border-radius: 5px;
     padding: .6rem .4rem;
+    cursor: pointer;
 }
 
 .btn:focus {
@@ -35,4 +36,11 @@
     color: var(--text-color);
     font-weight: bold;
     border: solid 2px rgba(0, 0, 0, 0.3)
+}
+.btn-danger {
+    background: var(--btn-danger-color);
+    color: var(--nav-color);
+    font-weight: 450;
+    font-size: 0.875rem;
+
 }
