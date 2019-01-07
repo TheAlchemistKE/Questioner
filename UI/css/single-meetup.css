@@ -84,3 +84,9 @@
 #comments:focus {
     border: solid .0625rem var(--component-color);
 }
+/* Styling Meetup Details footer. */
+.meetup-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
