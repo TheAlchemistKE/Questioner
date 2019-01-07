@@ -129,6 +129,13 @@
         position: absolute;
         width: 50% !important;  
     }
+    /* Add styling for Questions and answers. */
+    /* Styling Posted Questions */
+    .question-list, .comment-list {
+        list-style-type: none;
+        width: 70% !important;
+        margin: 0 auto;
+    }
 
 
    

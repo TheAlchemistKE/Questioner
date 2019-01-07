@@ -18,9 +18,9 @@
 }
 
 /* Styling Posted Questions */
-.question-list {
+.question-list, .comment-list {
     list-style-type: none;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 .user-details {
@@ -32,7 +32,7 @@
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    padding: 26px;
+    padding: 1.625rem;
 
 }
 .heading {
@@ -67,4 +67,20 @@
 }
 .question-votes .downvote {
     padding-left: 1.25rem;
+}
+/* Styling Comments */
+.comment-list {
+    border-left: solid 3px rgba(0, 0, 0, 0.2);
+}
+.comment-box label {
+    display: block;
+}
+.comment-box button {
+    display: block;
+}
+#comments {
+    outline: none;
+}
+#comments:focus {
+    border: solid .0625rem var(--component-color);
 }
