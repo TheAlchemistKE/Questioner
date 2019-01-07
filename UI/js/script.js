@@ -15,3 +15,11 @@ menuToggle.addEventListener('click', (e) => {
   }
 
 });
+
+// Alerting user when they click delete meetup btn.
+const deleteBtn = document.getElementById('delete');
+
+function userWarning() {
+  alert("You're about to delete a meetup!!");
+}
+deleteBtn.addEventListener('click', userWarning);
