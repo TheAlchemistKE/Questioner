@@ -147,6 +147,20 @@
         border: solid .0625rem var(--component-color);
         padding: .6rem;
     }
+    /* Styling the Top Questions Table */
+    .question-feed {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .question-feed .top-questions {
+        width: 80% !important;
+        border-collapse: collapse;
+        border: solid .0625rem var(--component-color);
+        text-align: left;
+        
+    }
 
 
    
