@@ -8,6 +8,7 @@
 @import 'dashboard.css';
 @import 'form.css';
 @import 'single-meetup.css';
+@import 'create-meetup.css';
 
 /* GENERAL STYLES */
 body {
