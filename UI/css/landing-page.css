@@ -2,9 +2,21 @@
     position: relative;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    height: 20vh;
     grid-column-gap: 10px;
 }
 .meetup-text {
     text-align: center;
     border-bottom: solid 2px rgba(0, 0, 0, 0.1);
+}
+.footer {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+
+
 }
