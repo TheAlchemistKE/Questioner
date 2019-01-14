@@ -26,6 +26,7 @@
     background: var(--btn-primary-color);
     color: var(--text-color);
     font-weight: bold;
+    text-align: center;
 }
 .btn-primary:focus {
     border: solid 2px var(--btn-primary-color);
@@ -42,5 +43,13 @@
     color: var(--nav-color);
     font-weight: 450;
     font-size: 0.875rem;
-
+}
+.fixed {
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+.center-bottom {
+    display: inline-block;
+    margin-bottom: 2%;
 }
