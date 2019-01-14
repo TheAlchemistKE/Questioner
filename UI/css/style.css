@@ -10,6 +10,7 @@
 @import 'single-meetup.css';
 @import 'create-meetup.css';
 @import 'reset-password.css';
+@import 'paginator.css';
 
 /* GENERAL STYLES */
 body {
