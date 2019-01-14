@@ -1,0 +1,29 @@
+@import 'color.css';
+
+.element-margin {
+   margin: 0;
+}
+.paginator {
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+}
+.paginator .pages a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    color: var(--component-color);
+}
+.paginator .pages a:hover {
+    background: var(--component-color);
+    color: var(--nav-color);
+}
+a.active-page {
+    background: var(--component-color);
+    color: var(--nav-color);
+}
