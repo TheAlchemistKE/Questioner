@@ -40,6 +40,9 @@
 }
 
 /* Styling Top Questions Feed Table */
+.top-questions {
+    margin-bottom: 5%;
+}
 .question-feed {
     width: 100%;
    
