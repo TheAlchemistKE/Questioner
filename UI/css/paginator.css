@@ -18,10 +18,14 @@
     line-height: 40px;
     font-weight: bold;
     color: var(--component-color);
+    border: 1px solid var(--component-color);
+    border-radius: 2px;
 }
 .paginator .pages a:hover {
     background: var(--component-color);
     color: var(--nav-color);
+    border: 1px solid var(--nav-color);
+    border-radius: 2px;
 }
 a.active-page {
     background: var(--component-color);
