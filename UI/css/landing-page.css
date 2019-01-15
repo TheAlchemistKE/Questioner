@@ -5,7 +5,6 @@
     height: 85%;
     grid-column-gap: 10px;
     overflow: auto;
-    position: absolute;
 }
 .meetup-text {
     text-align: center;
